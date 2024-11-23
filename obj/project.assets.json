@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\is22-11\\.nuget\\packages\\": {}
+    "C:\\Users\\maxx5\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\is22-11\\Desktop\\SqrtMath\\SqrtMath.csproj",
+      "projectUniqueName": "C:\\Users\\maxx5\\OneDrive\\Рабочий стол\\SqrtMath\\SqrtMath.csproj",
       "projectName": "SqrtMath",
-      "projectPath": "C:\\Users\\is22-11\\Desktop\\SqrtMath\\SqrtMath.csproj",
-      "packagesPath": "C:\\Users\\is22-11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\is22-11\\Desktop\\SqrtMath\\obj\\",
+      "projectPath": "C:\\Users\\maxx5\\OneDrive\\Рабочий стол\\SqrtMath\\SqrtMath.csproj",
+      "packagesPath": "C:\\Users\\maxx5\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maxx5\\OneDrive\\Рабочий стол\\SqrtMath\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\is22-11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maxx5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +45,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

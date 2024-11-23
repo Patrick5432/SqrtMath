@@ -7,6 +7,7 @@
         {
             while (true)
             {
+                if (i == 3) { Console.WriteLine("Для второго задания:"); }
                 Console.WriteLine($"Введите число {i + 1}:");
                 string input = Console.ReadLine();
                 if (double.TryParse(input, out double oneNumber))
