@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqrtMath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60f3be98beaa031a34c2777f6335752079fb1455")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc3c0eddaa77c1471fdafba566d011159466d248")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqrtMath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqrtMath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
