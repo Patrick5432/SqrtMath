@@ -54,16 +54,12 @@
     {
         Console.WriteLine("Тестирование SquareAlignment...");
 
-        // Тест 1: Дискриминант > 0
         Assert(SquareAlingmenr(1, -3, 2) == true, "Квадратное уравнение с D > 0");
 
-        // Тест 2: Дискриминант == 0
         Assert(SquareAlingmenr(1, -2, 1) == true, "Квадратное уравнение с D == 0");
 
-        // Тест 3: Дискриминант < 0
         Assert(SquareAlingmenr(1, 0, 1) == false, "Квадратное уравнение с D < 0");
 
-        // Тест 4: Коэффициент a == 0
         Assert(SquareAlingmenr(0, 2, 1) == false, "Коэффициент a равен 0");
 
         Console.WriteLine("SquareAlignment успешно пройден.");
@@ -73,22 +69,17 @@
     {
         Console.WriteLine("Тестирование CubeAlignment...");
 
-        // Тест 1: h > 0 (один действительный корень)
         Assert(CubeAlingment(1, -6, 11, -6) == true, "Кубическое уравнение с h > 0");
 
-        // Тест 2: h == 0 (два равных корня)
         Assert(CubeAlingment(1, -4, 6, -4) == true, "Кубическое уравнение с h == 0");
 
-        // Тест 3: h < 0 (три действительных корня)
         Assert(CubeAlingment(1, 0, -3, 2) == true, "Кубическое уравнение с h < 0");
 
-        // Тест 4: Коэффициент a == 0
         Assert(CubeAlingment(0, 2, 3, 4) == false, "Коэффициент a равен 0");
 
         Console.WriteLine("CubeAlignment успешно пройден.");
     }
 
-    // Метод проверки
     public static void Assert(bool condition, string testName)
     {
         if (!condition)
